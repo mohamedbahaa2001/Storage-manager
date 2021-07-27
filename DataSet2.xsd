@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet2" msprop:Generator_UserDSName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Form1Screen2" msprop:Generator_TableClassName="Form1Screen2DataTable" msprop:Generator_TableVarName="tableForm1Screen2" msprop:Generator_TablePropName="Form1Screen2" msprop:Generator_RowDeletingName="Form1Screen2RowDeleting" msprop:Generator_RowChangingName="Form1Screen2RowChanging" msprop:Generator_RowEvHandlerName="Form1Screen2RowChangeEventHandler" msprop:Generator_RowDeletedName="Form1Screen2RowDeleted" msprop:Generator_UserTableName="Form1Screen2" msprop:Generator_RowChangedName="Form1Screen2RowChanged" msprop:Generator_RowEvArgName="Form1Screen2RowChangeEvent" msprop:Generator_RowClassName="Form1Screen2Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" />
+              <xs:element name="اجمالي_x0020_السعر" msprop:Generator_ColumnVarNameInTable="columnاجمالي_السعر" msprop:Generator_ColumnPropNameInRow="اجمالي_السعر" msprop:Generator_ColumnPropNameInTable="اجمالي_السعرColumn" msprop:Generator_UserColumnName="اجمالي السعر" type="xs:string" minOccurs="0" />
+              <xs:element name="اجمالي_x0020_المصروف" msprop:Generator_ColumnVarNameInTable="columnاجمالي_المصروف" msprop:Generator_ColumnPropNameInRow="اجمالي_المصروف" msprop:Generator_ColumnPropNameInTable="اجمالي_المصروفColumn" msprop:Generator_UserColumnName="اجمالي المصروف" type="xs:string" minOccurs="0" />
+              <xs:element name="اجمالي_x0020_المجموع" msprop:Generator_ColumnVarNameInTable="columnاجمالي_المجموع" msprop:Generator_ColumnPropNameInRow="اجمالي_المجموع" msprop:Generator_ColumnPropNameInTable="اجمالي_المجموعColumn" msprop:Generator_UserColumnName="اجمالي المجموع" type="xs:string" minOccurs="0" />
+              <xs:element name="التاريخ" msprop:Generator_ColumnVarNameInTable="columnالتاريخ" msprop:Generator_ColumnPropNameInRow="التاريخ" msprop:Generator_ColumnPropNameInTable="التاريخColumn" msprop:Generator_UserColumnName="التاريخ" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Form1Screen2" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

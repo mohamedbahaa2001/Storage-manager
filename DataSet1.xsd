@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Form1Grid" msprop:Generator_TableClassName="Form1GridDataTable" msprop:Generator_TableVarName="tableForm1Grid" msprop:Generator_RowChangedName="Form1GridRowChanged" msprop:Generator_TablePropName="Form1Grid" msprop:Generator_RowDeletingName="Form1GridRowDeleting" msprop:Generator_RowChangingName="Form1GridRowChanging" msprop:Generator_RowEvHandlerName="Form1GridRowChangeEventHandler" msprop:Generator_RowDeletedName="Form1GridRowDeleted" msprop:Generator_RowClassName="Form1GridRow" msprop:Generator_UserTableName="Form1Grid" msprop:Generator_RowEvArgName="Form1GridRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="المنتج" msprop:Generator_ColumnVarNameInTable="columnالمنتج" msprop:Generator_ColumnPropNameInRow="المنتج" msprop:Generator_ColumnPropNameInTable="المنتجColumn" msprop:Generator_UserColumnName="المنتج" type="xs:string" minOccurs="0" />
+              <xs:element name="السعر" msprop:Generator_ColumnVarNameInTable="columnالسعر" msprop:Generator_ColumnPropNameInRow="السعر" msprop:Generator_ColumnPropNameInTable="السعرColumn" msprop:Generator_UserColumnName="السعر" type="xs:string" minOccurs="0" />
+              <xs:element name="تم_x0020_بيعه" msprop:Generator_ColumnVarNameInTable="columnتم_بيعه" msprop:Generator_ColumnPropNameInRow="تم_بيعه" msprop:Generator_ColumnPropNameInTable="تم_بيعهColumn" msprop:Generator_UserColumnName="تم بيعه" type="xs:string" minOccurs="0" />
+              <xs:element name="في_x0020_المخزن" msprop:Generator_ColumnVarNameInTable="columnفي_المخزن" msprop:Generator_ColumnPropNameInRow="في_المخزن" msprop:Generator_ColumnPropNameInTable="في_المخزنColumn" msprop:Generator_UserColumnName="في المخزن" type="xs:string" minOccurs="0" />
+              <xs:element name="التاريخ" msprop:Generator_ColumnVarNameInTable="columnالتاريخ" msprop:Generator_ColumnPropNameInRow="التاريخ" msprop:Generator_ColumnPropNameInTable="التاريخColumn" msprop:Generator_UserColumnName="التاريخ" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="DataTable1Key1">
+      <xs:selector xpath=".//mstns:Form1Grid" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
