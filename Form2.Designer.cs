@@ -74,9 +74,8 @@ namespace Store_Manager
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1262, 74);
+            this.panel1.Size = new System.Drawing.Size(1442, 99);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -86,9 +85,8 @@ namespace Store_Manager
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1262, 74);
+            this.panel2.Size = new System.Drawing.Size(1442, 99);
             this.panel2.TabIndex = 1;
             // 
             // panel3
@@ -97,9 +95,8 @@ namespace Store_Manager
             this.panel3.Controls.Add(this.label3);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1262, 76);
+            this.panel3.Size = new System.Drawing.Size(1442, 101);
             this.panel3.TabIndex = 2;
             // 
             // label3
@@ -108,10 +105,10 @@ namespace Store_Manager
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(450, 23);
+            this.label3.Location = new System.Drawing.Point(514, 31);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label3.Size = new System.Drawing.Size(275, 28);
+            this.label3.Size = new System.Drawing.Size(344, 35);
             this.label3.TabIndex = 0;
             this.label3.Text = "قسم ادخال المنتجات الي المخزن";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -122,10 +119,10 @@ namespace Store_Manager
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(450, 23);
+            this.label2.Location = new System.Drawing.Point(514, 31);
             this.label2.Name = "label2";
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label2.Size = new System.Drawing.Size(275, 28);
+            this.label2.Size = new System.Drawing.Size(344, 35);
             this.label2.TabIndex = 0;
             this.label2.Text = "قسم ادخال المنتجات الي المخزن";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -136,10 +133,10 @@ namespace Store_Manager
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(450, 23);
+            this.label1.Location = new System.Drawing.Point(514, 31);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(275, 28);
+            this.label1.Size = new System.Drawing.Size(344, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "قسم ادخال المنتجات الي المخزن";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -152,13 +149,12 @@ namespace Store_Manager
             | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(482, 80);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView1.Location = new System.Drawing.Point(551, 107);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(769, 598);
+            this.dataGridView1.Size = new System.Drawing.Size(879, 797);
             this.dataGridView1.TabIndex = 1;
             // 
             // panel4
@@ -166,18 +162,18 @@ namespace Store_Manager
             this.panel4.BackColor = System.Drawing.Color.Aqua;
             this.panel4.Controls.Add(this.dateTimePicker1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(0, 683);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Location = new System.Drawing.Point(0, 911);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1262, 39);
+            this.panel4.Size = new System.Drawing.Size(1442, 52);
             this.panel4.TabIndex = 2;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dateTimePicker1.Location = new System.Drawing.Point(0, 0);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(1262, 23);
+            this.dateTimePicker1.Size = new System.Drawing.Size(1442, 27);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // groupBox1
@@ -203,11 +199,9 @@ namespace Store_Manager
             this.groupBox1.Controls.Add(this.ProductNameTxt);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.Location = new System.Drawing.Point(10, 85);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Location = new System.Drawing.Point(11, 113);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(414, 593);
+            this.groupBox1.Size = new System.Drawing.Size(473, 791);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "بينات المنتج المدُخَل";
@@ -215,41 +209,44 @@ namespace Store_Manager
             // 
             // IDText
             // 
-            this.IDText.Location = new System.Drawing.Point(165, 84);
+            this.IDText.Location = new System.Drawing.Point(189, 112);
+            this.IDText.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.IDText.Name = "IDText";
-            this.IDText.Size = new System.Drawing.Size(100, 34);
+            this.IDText.Size = new System.Drawing.Size(114, 41);
             this.IDText.TabIndex = 19;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(274, 87);
+            this.label11.Location = new System.Drawing.Point(313, 116);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(132, 28);
+            this.label11.Size = new System.Drawing.Size(163, 35);
             this.label11.TabIndex = 18;
             this.label11.Text = "الرقم التعريفي";
             // 
             // soldtext
             // 
-            this.soldtext.Location = new System.Drawing.Point(134, 124);
+            this.soldtext.Location = new System.Drawing.Point(153, 165);
+            this.soldtext.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.soldtext.Name = "soldtext";
-            this.soldtext.Size = new System.Drawing.Size(100, 34);
+            this.soldtext.Size = new System.Drawing.Size(114, 41);
             this.soldtext.TabIndex = 17;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(243, 127);
+            this.label10.Location = new System.Drawing.Point(278, 169);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(163, 28);
+            this.label10.Size = new System.Drawing.Size(204, 35);
             this.label10.TabIndex = 16;
             this.label10.Text = "العدد الذي تم بيعه";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(6, 529);
+            this.button1.Location = new System.Drawing.Point(7, 705);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 59);
+            this.button1.Size = new System.Drawing.Size(139, 79);
             this.button1.TabIndex = 1;
             this.button1.Text = "اغلاق";
             this.button1.UseVisualStyleBackColor = true;
@@ -257,91 +254,97 @@ namespace Store_Manager
             // 
             // newProductText
             // 
-            this.newProductText.Location = new System.Drawing.Point(162, 204);
+            this.newProductText.Location = new System.Drawing.Point(185, 272);
+            this.newProductText.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.newProductText.Name = "newProductText";
-            this.newProductText.Size = new System.Drawing.Size(100, 34);
+            this.newProductText.Size = new System.Drawing.Size(114, 41);
             this.newProductText.TabIndex = 15;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(271, 167);
+            this.label9.Location = new System.Drawing.Point(310, 223);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(135, 28);
+            this.label9.Size = new System.Drawing.Size(169, 35);
             this.label9.TabIndex = 14;
             this.label9.Text = "الكمية فالمخزن";
             // 
             // PriceTxt
             // 
-            this.PriceTxt.Location = new System.Drawing.Point(162, 244);
+            this.PriceTxt.Location = new System.Drawing.Point(185, 325);
+            this.PriceTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PriceTxt.Name = "PriceTxt";
-            this.PriceTxt.Size = new System.Drawing.Size(100, 34);
+            this.PriceTxt.Size = new System.Drawing.Size(114, 41);
             this.PriceTxt.TabIndex = 13;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(268, 207);
+            this.label8.Location = new System.Drawing.Point(306, 276);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(138, 28);
+            this.label8.Size = new System.Drawing.Size(170, 35);
             this.label8.TabIndex = 12;
             this.label8.Text = "الطلبية الجديدة";
             // 
             // newPriceText
             // 
-            this.newPriceText.Location = new System.Drawing.Point(111, 284);
+            this.newPriceText.Location = new System.Drawing.Point(114, 380);
+            this.newPriceText.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.newPriceText.Name = "newPriceText";
-            this.newPriceText.Size = new System.Drawing.Size(100, 34);
+            this.newPriceText.Size = new System.Drawing.Size(114, 41);
             this.newPriceText.TabIndex = 11;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(277, 247);
+            this.label7.Location = new System.Drawing.Point(317, 329);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(129, 28);
+            this.label7.Size = new System.Drawing.Size(160, 35);
             this.label7.TabIndex = 10;
             this.label7.Text = "السعر للقطعة";
             // 
             // dateText
             // 
-            this.dateText.Location = new System.Drawing.Point(111, 333);
+            this.dateText.Location = new System.Drawing.Point(127, 444);
+            this.dateText.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateText.Name = "dateText";
-            this.dateText.Size = new System.Drawing.Size(224, 34);
+            this.dateText.Size = new System.Drawing.Size(255, 41);
             this.dateText.TabIndex = 9;
             this.dateText.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(217, 287);
+            this.label6.Location = new System.Drawing.Point(238, 383);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(189, 28);
+            this.label6.Size = new System.Drawing.Size(239, 35);
             this.label6.TabIndex = 8;
             this.label6.Text = "السعر الجديد (ان وجد)";
             // 
             // StoredTxt
             // 
-            this.StoredTxt.Location = new System.Drawing.Point(165, 164);
+            this.StoredTxt.Location = new System.Drawing.Point(189, 219);
+            this.StoredTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.StoredTxt.Name = "StoredTxt";
-            this.StoredTxt.Size = new System.Drawing.Size(100, 34);
+            this.StoredTxt.Size = new System.Drawing.Size(114, 41);
             this.StoredTxt.TabIndex = 7;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(341, 336);
+            this.label5.Location = new System.Drawing.Point(390, 448);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(65, 28);
+            this.label5.Size = new System.Drawing.Size(78, 35);
             this.label5.TabIndex = 6;
             this.label5.Text = "التاريخ";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(6, 461);
+            this.button4.Location = new System.Drawing.Point(7, 615);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(122, 53);
+            this.button4.Size = new System.Drawing.Size(139, 71);
             this.button4.TabIndex = 5;
             this.button4.Text = "اضافة";
             this.button4.UseVisualStyleBackColor = true;
@@ -349,9 +352,10 @@ namespace Store_Manager
             // 
             // update
             // 
-            this.update.Location = new System.Drawing.Point(134, 461);
+            this.update.Location = new System.Drawing.Point(153, 615);
+            this.update.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.update.Name = "update";
-            this.update.Size = new System.Drawing.Size(137, 53);
+            this.update.Size = new System.Drawing.Size(157, 71);
             this.update.TabIndex = 4;
             this.update.Text = "تحديث";
             this.update.UseVisualStyleBackColor = true;
@@ -359,9 +363,10 @@ namespace Store_Manager
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(277, 461);
+            this.button2.Location = new System.Drawing.Point(317, 615);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 53);
+            this.button2.Size = new System.Drawing.Size(147, 71);
             this.button2.TabIndex = 3;
             this.button2.Text = "بحث";
             this.button2.UseVisualStyleBackColor = true;
@@ -369,30 +374,32 @@ namespace Store_Manager
             // 
             // ProductNameTxt
             // 
-            this.ProductNameTxt.Location = new System.Drawing.Point(127, 44);
+            this.ProductNameTxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.ProductNameTxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.ProductNameTxt.Location = new System.Drawing.Point(145, 59);
+            this.ProductNameTxt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ProductNameTxt.Name = "ProductNameTxt";
-            this.ProductNameTxt.Size = new System.Drawing.Size(172, 34);
+            this.ProductNameTxt.Size = new System.Drawing.Size(196, 41);
             this.ProductNameTxt.TabIndex = 2;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(305, 44);
+            this.label4.Location = new System.Drawing.Point(349, 59);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 28);
+            this.label4.Size = new System.Drawing.Size(124, 35);
             this.label4.TabIndex = 0;
             this.label4.Text = "اسم المنتج";
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 722);
+            this.ClientSize = new System.Drawing.Size(1442, 963);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;

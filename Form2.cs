@@ -23,12 +23,13 @@ namespace Store_Manager
             dateText.Enabled = false;
             IDText.Enabled = false;
             //StoredTxt.Enabled = false;
+
             ShowData();
         }
         //new connection from D:/ Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="D:\Backups\source\repos\Store Manager\Database1.mdf";Integrated Security=True
         //old connection Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Mohamed Bahaa\source\repos\Store Manager\Database1.mdf;Integrated Security=True
         // connection
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Backups\source\repos\Store Manager\Database1.mdf;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\source\repos\Storage Manage\Database1.mdf;Integrated Security=True");
         SqlDataAdapter DataAdapter;
         DataTable DataTable;
         private void groupBox1_Enter(object sender, EventArgs e)
